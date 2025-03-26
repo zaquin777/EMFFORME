@@ -1,5 +1,4 @@
-from flask import Flask , render_template, request # type: ignore
-
+from flask import Flask , render_template, request 
 app = Flask(__name__) 
 
 # Simulando um banco de dados de alunos
