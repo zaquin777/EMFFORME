@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #ff4128;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
 }
 
 .left-section {
-  background-color: #00aaff;
+  background-color: #991200;
   color: white;
   padding: 40px;
   width: 40%;

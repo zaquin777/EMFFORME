@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>GetResponse</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<title>EMFFORME 2025.2</title>
+    <link rel="stylesheet"  type="text/css" href="{{url_for('.static', filename='style.css')}}">
 </head>
 <body>
+  <img src="{{url_for('.static', filename='logo-pequeno.png')}}" alt="">
 
 <div class="container">
+
   <div class="left-section">
     <img src="getresponse-logo.png" alt="GetResponse Logo" class="logo"> 
-    <h2>Crie uma conta gratuita agora</h2>
-    <form>
-      <input type="text" placeholder="Nome completo" required>
-      <input type="email" placeholder="Email" required>
-      <input type="password" placeholder="Senha" required>
-      <button type="submit">CRIAR CONTA</button>
+    <h2>FAÇA AGORA A SUA INSCRIÇÃO</h2>
+    <form action="" method="post">
+      <input type="text" name="nome" placeholder="Nome completo" required>
+      <input type="number" name="idade" placeholder="Idade" required>
+      <input type="text" name="cidade" placeholder="Cidade" required>
+      <input type="text" name="end" placeholder="Endereço" required>
+
+      <button type="submit">REALIZAR INSCRIÇÃO</button>
     </form>
-    <p class="login-link">Já tem uma conta? <a href="#">Login</a></p>
-    <p class="terms">Ao clicar em "Criar conta", você aceita os <a href="#">Termos de Serviço</a>, a <a href="#">Política Antispam</a> e a <a href="#">Política de Privacidade</a>. <a href="#">Informações de acessibilidade</a></p>
   </div>
+
   <div class="right-section">
     <h1>Plataforma de email marketing para impulsionar seu negócio</h1>
     <div class="features">
