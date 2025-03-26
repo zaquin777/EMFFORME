@@ -1,5 +1,4 @@
-import tkinter as tk
-from tkinter import messagebox
+
 
 def create_account():
     full_name = entry_name.get()
@@ -51,5 +50,4 @@ options_menu.add_command(label="Sair", command=root.quit)
 
 menu_bar.add_cascade(label="Opções", menu=options_menu)
 
-# Rodar a aplicação
-root.mainloop()
+
