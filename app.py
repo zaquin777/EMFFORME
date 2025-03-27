@@ -1,10 +1,9 @@
-from flask import Flask , render_template, request
+from flask import Flask , render_template, request 
 
 app = Flask(__name__) 
 
 # Simulando um banco de dados de alunos
 alunos = []
-
 @app.route('/')
 def login():
     return render_template('index.html')
