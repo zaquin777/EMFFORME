@@ -16,6 +16,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 } else {
     header("Location: index.php"); // Se acessado diretamente, redireciona
-    exit();
+    // 
+    // 
+    // 
+    
+    
+
+exit();
 }
 ?>
