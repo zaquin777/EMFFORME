@@ -8,14 +8,14 @@ alunos = []
 def login():
     return render_template('index.html')
 
-@app.route('/inscricao', methods=['GET','POST'])
+@app.route('/inscricao', methods=['GET.POST'])
 def cadastro():
     nome = request.form.get('nome')
     idade = request.form.get('idade')
     cidade = request.form.get('cidade')
     endereco = request.form.get('end')
 
-    if request.method == 'GET':
+    if request.method == 'GET': 
         return render_template('inscricao.html')
 
     if request.method == 'POST':
